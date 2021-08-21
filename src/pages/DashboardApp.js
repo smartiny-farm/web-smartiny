@@ -24,19 +24,19 @@ export default function DashboardApp() {
     <Page title="Dashboard | Minimal-UI">
       <Container maxWidth="xl">
         <Box sx={{ pb: 5 }}>
-          <Typography variant="h4">Hi, Welcome back</Typography>
+          <Typography variant="h4">Olá, bem-vindo(a) de volta</Typography>
         </Box>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={8} sm={2} md={2}>
             <AppWeeklySales />
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={10} sm={4} md={2}>
             <AppNewUsers />
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={10} sm={4} md={2}>
             <AppItemOrders />
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={10} sm={4} md={2}>
             <AppBugReports />
           </Grid>
 
