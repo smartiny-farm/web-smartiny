@@ -27,7 +27,7 @@ export default function DashboardApp() {
           <Typography variant="h4">Olá, bem-vindo(a) de volta</Typography>
         </Box>
         <Grid container spacing={3}>
-          <Grid item xs={8} sm={2} md={2}>
+          <Grid item xs={10} sm={4} md={2}>
             <AppWeeklySales />
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
@@ -38,6 +38,12 @@ export default function DashboardApp() {
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
             <AppBugReports />
+          </Grid>
+          <Grid item xs={10} sm={4} md={2}>
+            <AppWeeklySales />
+          </Grid>
+          <Grid item xs={10} sm={4} md={2}>
+            <AppNewUsers />
           </Grid>
 
           <Grid item xs={12} md={6} lg={8}>
