@@ -17,27 +17,22 @@ import { fDateTime } from '../../../utils/formatTime';
 
 const TIMELINES = [
   {
-    title: '1983, orders, $4220',
+    title: 'Estação 1',
     time: faker.date.past(),
     type: 'order1'
   },
   {
-    title: '12 Invoices have been paid',
-    time: faker.date.past(),
-    type: 'order2'
-  },
-  {
-    title: 'Order #37745 from September',
+    title: 'Estação 2',
     time: faker.date.past(),
     type: 'order3'
   },
   {
-    title: 'New order placed #XF-2356',
+    title: 'Estação 3',
     time: faker.date.past(),
     type: 'order4'
   },
   {
-    title: 'New order placed #XF-2346',
+    title: 'Estação 4',
     time: faker.date.past(),
     type: 'order5'
   }
@@ -86,7 +81,7 @@ export default function AppOrderTimeline() {
         }
       }}
     >
-      <CardHeader title="Order Timeline" />
+      <CardHeader title="Legenda por cor" />
       <CardContent>
         <Timeline>
           {TIMELINES.map((item, index) => (

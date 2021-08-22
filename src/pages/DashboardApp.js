@@ -41,10 +41,10 @@ export default function DashboardApp() {
             <AppBugReports />
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
-            <AppItemOrders />
+            <Station01 />
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
-            <AppBugReports />
+            <AppNewUsers />
           </Grid>
 
           {/* <Grid item xs={12} md={6} lg={4}>
@@ -59,9 +59,9 @@ export default function DashboardApp() {
             <AppCurrentSubject />
           </Grid> */}
 
-          <Grid item xs={12} md={6} lg={8}>
+          {/* <Grid item xs={12} md={6} lg={8}>
             <AppNewsUpdate />
-          </Grid>
+          </Grid> */}
 
           <Grid item xs={12} md={6} lg={4}>
             <AppOrderTimeline />
@@ -71,12 +71,12 @@ export default function DashboardApp() {
             <AppTrafficBySite />
           </Grid> */}
 
-          <Grid item xs={12} md={6} lg={12}>
+          <Grid item xs={12} md={6} lg={8}>
             <AppTasks />
           </Grid>
 
           <Grid item xs={12} md={6} lg={12}>
-            <img src={mapImg} alt="Mapa" />
+            <img src={mapImg} alt="Mapa" style={{ width: 500, margin: 'auto' }} />
           </Grid>
         </Grid>
       </Container>

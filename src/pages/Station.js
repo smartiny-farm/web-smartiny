@@ -1,11 +1,25 @@
 import { merge } from 'lodash';
-// import ReactApexChart from 'react-apexcharts';
 import { Card, CardHeader, Box, Grid, Typography } from '@material-ui/core';
 import Chart from 'react-apexcharts';
+import { useEffect } from 'react';
 import { BaseOptionChart } from '../components/charts';
 import Page from '../components/Page';
+import { api } from '../services/api';
 
 export default function Station() {
+  useEffect(async () => {
+    await api.post(
+      'signin',
+      {},
+      {
+        auth: {
+          username: 'malagurti',
+          password: 'Daniel160192'
+        }
+      }
+    );
+  }, []);
+
   const chartOptions = merge(BaseOptionChart(), {
     options: {
       chart: {
@@ -32,7 +46,7 @@ export default function Station() {
         <Typography variant="h4">Estação 01</Typography>
       </Box>
       <Grid container spacing={3}>
-        <Grid item xs={16} md={10} lg={6}>
+        <Grid item md={10} lg={6}>
           <Card>
             <CardHeader title="Temperatura" />
             <Box sx={{ p: 3, pb: 1 }} dir="ltr">
@@ -45,7 +59,7 @@ export default function Station() {
             </Box>
           </Card>
         </Grid>
-        <Grid item xs={16} md={10} lg={6}>
+        <Grid item md={10} lg={6}>
           <Card>
             <CardHeader title="Umidade" />
             <Box sx={{ p: 3, pb: 1 }} dir="ltr">

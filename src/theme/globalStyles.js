@@ -7,7 +7,8 @@ const GlobalStyles = withStyles((theme) => ({
     '*': {
       margin: 0,
       padding: 0,
-      boxSizing: 'border-box'
+      boxSizing: 'border-box',
+      textDecoration: 'none'
     },
     html: {
       width: '100%',

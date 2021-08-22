@@ -69,20 +69,6 @@ export default function AppNewsUpdate() {
           ))}
         </Stack>
       </Scrollbar>
-
-      <Divider />
-
-      <Box sx={{ p: 2, textAlign: 'right' }}>
-        <Button
-          to="#"
-          size="small"
-          color="inherit"
-          component={RouterLink}
-          endIcon={<Icon icon={arrowIosForwardFill} />}
-        >
-          View all
-        </Button>
-      </Box>
     </Card>
   );
 }

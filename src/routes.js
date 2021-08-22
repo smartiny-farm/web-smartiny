@@ -10,6 +10,8 @@ import Products from './pages/Products';
 import Blog from './pages/Blog';
 import User from './pages/User';
 import NotFound from './pages/Page404';
+import Station from './pages/Station';
+import Camera from './pages/Camera';
 
 // ----------------------------------------------------------------------
 
@@ -21,6 +23,8 @@ export default function Router() {
       children: [
         { path: '/', element: <Navigate to="/dashboard/app" replace /> },
         { path: 'app', element: <DashboardApp /> },
+        { path: 'station01', element: <Station /> },
+        { path: 'cameras', element: <Camera /> },
         { path: 'user', element: <User /> },
         { path: 'products', element: <Products /> },
         { path: 'blog', element: <Blog /> }

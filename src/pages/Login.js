@@ -3,6 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@material-ui/core/styles';
 import { Card, Stack, Link, Container, Typography } from '@material-ui/core';
 // layouts
+
 import AuthLayout from '../layouts/AuthLayout';
 // components
 import Page from '../components/Page';
@@ -41,7 +42,7 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function Login() {
   return (
-    <RootStyle title="Login | Minimal-UI">
+    <RootStyle title="Smartiny | Login">
       <AuthLayout>
         Don’t have an account? &nbsp;
         <Link underline="none" variant="subtitle2" component={RouterLink} to="/register">
