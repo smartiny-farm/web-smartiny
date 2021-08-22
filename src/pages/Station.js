@@ -29,13 +29,13 @@ export default function Station() {
         }
       },
       xaxis: {
-        categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+        categories: [0, 5, 10, 15, 20, 25, 30, 35, 40]
       }
     },
     series: [
       {
         name: 'series-1',
-        data: [30, 40, 45, 50, 49, 60, 70, 91]
+        data: [30, 10, 15, 25, 35, 5, 20, 40, 10]
       }
     ]
   });
@@ -48,7 +48,7 @@ export default function Station() {
       <Grid container spacing={3}>
         <Grid item md={10} lg={6}>
           <Card>
-            <CardHeader title="Temperatura" />
+            <CardHeader title="Temperatura do Ar" />
             <Box sx={{ p: 3, pb: 1 }} dir="ltr">
               <Chart
                 options={chartOptions.options}
@@ -61,13 +61,59 @@ export default function Station() {
         </Grid>
         <Grid item md={10} lg={6}>
           <Card>
-            <CardHeader title="Umidade" />
+            <CardHeader title="Umidade do Ar" />
             <Box sx={{ p: 3, pb: 1 }} dir="ltr">
               <Chart
                 options={chartOptions.options}
                 series={chartOptions.series}
                 type="bar"
                 width="500"
+              />
+            </Box>
+          </Card>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={3} style={{ marginTop: 8 }}>
+        <Grid item md={10} lg={6}>
+          <Card>
+            <CardHeader title="Temperatura do Solo" />
+            <Box sx={{ p: 3, pb: 1 }} dir="ltr">
+              <Chart
+                options={chartOptions.options}
+                series={chartOptions.series}
+                type="line"
+                width="500"
+              />
+            </Box>
+          </Card>
+        </Grid>
+        <Grid item md={10} lg={6}>
+          <Card>
+            <CardHeader title="Umidade do Solo" />
+            <Box sx={{ p: 3, pb: 1 }} dir="ltr">
+              <Chart
+                options={chartOptions.options}
+                series={chartOptions.series}
+                type="bar"
+                width="500"
+              />
+            </Box>
+          </Card>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={3} style={{ marginTop: 8 }}>
+        <Grid item md={10} lg={12}>
+          <Card>
+            <CardHeader title="Índice de Luminosidade" />
+            <Box sx={{ p: 3, pb: 1 }} dir="ltr">
+              <Chart
+                options={chartOptions.options}
+                series={chartOptions.series}
+                type="line"
+                width="1150"
+                height="300"
               />
             </Box>
           </Card>
