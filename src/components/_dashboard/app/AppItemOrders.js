@@ -44,7 +44,7 @@ export default function AppItemOrders() {
       </IconWrapperStyle>
       {/* <Typography variant="h3">{fShortenNumber(TOTAL)}</Typography> */}
       <Typography variant="h5" sx={{ opacity: 0.72 }}>
-        <Link style={{ color: '#B78103' }} to="dashboard/station">
+        <Link style={{ color: '#B78103' }} to="/dashboard/station">
           Estação
         </Link>
       </Typography>
