@@ -50,7 +50,7 @@ export default function EcommerceShop() {
     <Page title="Smartiny | Dashboard: Products">
       <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Products
+          Produtos
         </Typography>
 
         <Stack
