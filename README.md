@@ -1,40 +1,38 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+<h1 align="center" style="width: 50px">
+    <img src="./public/static/logo.svg">
+</h1>
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+<h1 align="center">
+    <img src="./.github/printTela.gif">
+</h1>
 
-> Free React Admin Dashboard made with Material-UI components and React.
+# 💻 Sobre o projeto
+Plataforma de monitoramento e coleta de dados para melhor desempenho da coleita e lavoura, com possibilidade de compra de equipamentos através do ecommerce integrado.
 
-![preview](public/static/preview.png)
+Projeto desenvolvido durante o 🚀 **HackAgro do MT** 🚀
 
-| [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
-| ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **7** Demo pages                                      | **42+** demo pages                                                |
-| -                                                     | ✓ Multi-language                                                  |
-| -                                                     | ✓ Dark/Light Mode 🌓                                              |
-| -                                                     | ✓ [More components](https://minimals.cc/components)               |
-| -                                                     | ✓ TypeScript version                                              |
-| -                                                     | ✓ Design files (Figma & Sketch)                                   |
+---
 
-## Page demo
+## 🚨 Como baixar o projeto
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js. Além disto ter um editor para trabalhar com o código como VSCode
 
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Users](https://minimal-kit-react.vercel.app/dashboard/user)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Blog](https://minimal-kit-react.vercel.app/dashboard/blog)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
+### 🏁 Para rodar a aplicação
 
-## Getting started
+```bash
 
-- Recommended `node js 14+` and `npm 6+`
-- Install dependencies: `npm install` or `yarn install`
-- Start the server: `npm run start` or `yarn start`
+    # Clonar o repositório
+    $ git clone https://github.com/turing-farm/web-smartiny
 
-## License
+    # Entrar no diretório
+    $ cd {nomepasta}
 
-Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
+    # Instalar as dependências
+    $ yarn install
 
-## Contact us
+    # Iniciar o projeto no terminal
+    $ yarn start
 
-Email Us: support@minimals.cc
+```
+
+---
+Desenvolvido por Milena Almeida 💙
