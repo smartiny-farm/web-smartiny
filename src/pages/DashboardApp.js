@@ -8,27 +8,27 @@ import {
   AppBugReports,
   AppItemOrders,
   AppNewsUpdate,
-  AppWeeklySales,
-  AppOrderTimeline,
-  AppCurrentVisits,
-  AppWebsiteVisits,
-  AppTrafficBySite,
-  AppCurrentSubject,
-  AppConversionRates
+  Station01,
+  AppOrderTimeline
+  // AppWebsiteVisits,
+  // AppTrafficBySite,
+  // AppCurrentVisits,
+  // AppCurrentSubject,
+  // AppConversionRates
 } from '../components/_dashboard/app';
 
 // ----------------------------------------------------------------------
 
 export default function DashboardApp() {
   return (
-    <Page title="Dashboard | Minimal-UI">
+    <Page title="Smartiny | Dashboard">
       <Container maxWidth="xl">
         <Box sx={{ pb: 5 }}>
           <Typography variant="h4">Olá, bem-vindo(a) de volta</Typography>
         </Box>
         <Grid container spacing={3}>
           <Grid item xs={10} sm={4} md={2}>
-            <AppWeeklySales />
+            <Station01 />
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
             <AppNewUsers />
@@ -40,27 +40,23 @@ export default function DashboardApp() {
             <AppBugReports />
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
-            <AppWeeklySales />
+            <AppItemOrders />
           </Grid>
           <Grid item xs={10} sm={4} md={2}>
-            <AppNewUsers />
+            <AppBugReports />
           </Grid>
 
-          <Grid item xs={12} md={6} lg={8}>
-            <AppWebsiteVisits />
-          </Grid>
-
-          <Grid item xs={12} md={6} lg={4}>
+          {/* <Grid item xs={12} md={6} lg={4}>
             <AppCurrentVisits />
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={12} md={6} lg={8}>
+          {/* <Grid item xs={12} md={6} lg={8}>
             <AppConversionRates />
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={12} md={6} lg={4}>
+          {/* <Grid item xs={12} md={6} lg={4}>
             <AppCurrentSubject />
-          </Grid>
+          </Grid> */}
 
           <Grid item xs={12} md={6} lg={8}>
             <AppNewsUpdate />
@@ -70,11 +66,11 @@ export default function DashboardApp() {
             <AppOrderTimeline />
           </Grid>
 
-          <Grid item xs={12} md={6} lg={4}>
+          {/* <Grid item xs={12} md={6} lg={4}>
             <AppTrafficBySite />
-          </Grid>
+          </Grid> */}
 
-          <Grid item xs={12} md={6} lg={8}>
+          <Grid item xs={12} md={6} lg={12}>
             <AppTasks />
           </Grid>
         </Grid>
