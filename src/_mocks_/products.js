@@ -5,20 +5,34 @@ import { mockImgProduct } from '../utils/mockImages';
 // ----------------------------------------------------------------------
 
 const PRODUCT_NAME = [
-  'Controlador Central - ESP 32',
+  'Câmeras EspCam',
   'Sensor Temperatura Solo - DB18B20',
-  'Smartiny Estação Metereológica',
+  'Sensor de Luminosidade',
+  'Controlador Central - ESP 32',
+  'Sensor de Umidade do Solo',
+  'Sensor de Temperatura e Umidade do Ar',
+  'Raspberry + Case Raspberry',
+  'Raspberry',
+  'Smartiny Estação Metereologica',
   'Smartiny Aqua',
   'Smartiny Hidroponia',
-  'Smartiny Horticultura',
-  'Sensor DHT 22 - Temperatura',
-  'Sensor DHT 22 - Higrometro',
-  'Sensor DHT 22 - EspCam',
-  'Câmeras EspCam',
-  'Dados gerados'
+  'Smartiny Horticultura'
 ];
 
-const PRODUCT_PRICE = ['200', '200', '200', '200', '200', '200', '200'];
+const PRODUCT_PRICE = [
+  '80',
+  '50',
+  '30',
+  '80',
+  '30',
+  '20',
+  '400',
+  '450',
+  '820',
+  '820',
+  '820',
+  '820'
+];
 
 const PRODUCT_COLOR = [
   '#00AB55',
@@ -33,7 +47,7 @@ const PRODUCT_COLOR = [
 
 // ----------------------------------------------------------------------
 
-const products = [...Array(8)].map((_, index) => {
+const products = [...Array(12)].map((_, index) => {
   const setIndex = index + 1;
 
   return {
