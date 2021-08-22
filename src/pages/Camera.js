@@ -14,7 +14,7 @@ export default function Camera() {
       <Grid container spacing={3}>
         <Grid item xs={16} md={10} lg={6}>
           <Card>
-            <CardHeader title="Galpão de máquinas" />
+            <CardHeader title="Câmera 01" />
             <iframe
               title="cam01"
               width="560"

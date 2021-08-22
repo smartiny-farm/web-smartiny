@@ -1,5 +1,5 @@
 // material
-import { Box, Grid, Container, Typography } from '@material-ui/core';
+import { Box, Grid, Container, Typography, Card } from '@material-ui/core';
 // components
 import mapImg from '../images/mapImage.png';
 import Page from '../components/Page';
@@ -76,7 +76,10 @@ export default function DashboardApp() {
           </Grid>
 
           <Grid item xs={12} md={6} lg={12}>
-            <img src={mapImg} alt="Mapa" style={{ width: 500, margin: 'auto' }} />
+            <Card sx={{ px: 5, py: 5 }}>
+              <Typography variant="h5">Pontos de Estação no Mapa</Typography>
+              <img src={mapImg} alt="Mapa" style={{ width: 500, margin: 'auto' }} />
+            </Card>
           </Grid>
         </Grid>
       </Container>
