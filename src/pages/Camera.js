@@ -19,7 +19,7 @@ export default function Camera() {
               title="cam01"
               width="560"
               height="415"
-              src="http://192.168.1.115"
+              src="http://192.168.1.118"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -64,7 +64,7 @@ export default function Camera() {
               title="cam04"
               width="560"
               height="415"
-              src="http://192.168.1.118"
+              src="http://192.168.1.115"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
