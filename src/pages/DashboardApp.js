@@ -1,6 +1,7 @@
 // material
 import { Box, Grid, Container, Typography } from '@material-ui/core';
 // components
+import mapImg from '../images/mapImage.png';
 import Page from '../components/Page';
 import {
   AppTasks,
@@ -72,6 +73,10 @@ export default function DashboardApp() {
 
           <Grid item xs={12} md={6} lg={12}>
             <AppTasks />
+          </Grid>
+
+          <Grid item xs={12} md={6} lg={12}>
+            <img src={mapImg} alt="Mapa" />
           </Grid>
         </Grid>
       </Container>
