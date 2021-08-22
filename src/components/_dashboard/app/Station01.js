@@ -44,7 +44,7 @@ export default function Station01() {
       </IconWrapperStyle>
       {/* <Typography variant="h5">{fShortenNumber(TOTAL)}</Typography> */}
       <Typography variant="h5" sx={{ opacity: 0.72 }}>
-        <Link to="/dashboard/station01">Estação</Link>
+        <Link to="/dashboard/station">Estação</Link>
       </Typography>
     </RootStyle>
   );

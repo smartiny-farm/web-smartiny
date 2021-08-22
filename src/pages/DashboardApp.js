@@ -8,9 +8,9 @@ import {
   AppNewUsers,
   AppBugReports,
   AppItemOrders,
-  AppNewsUpdate,
   Station01,
   AppOrderTimeline
+  // AppNewsUpdate,
   // AppWebsiteVisits,
   // AppTrafficBySite,
   // AppCurrentVisits,

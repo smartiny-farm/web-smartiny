@@ -2,6 +2,7 @@ import { Icon } from '@iconify/react';
 // material
 import { alpha, styled } from '@material-ui/core/styles';
 import { Card, Typography } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 // utils
 // import { fShortenNumber } from '../../../utils/formatNumber';
 
@@ -43,7 +44,9 @@ export default function AppBugReports() {
       </IconWrapperStyle>
       {/* <Typography variant="h3">{fShortenNumber(TOTAL)}</Typography> */}
       <Typography variant="h5" sx={{ opacity: 0.72 }}>
-        Estação
+        <Link style={{ color: '#B72136' }} to="/dashboard/station">
+          Estação
+        </Link>
       </Typography>
     </RootStyle>
   );

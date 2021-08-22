@@ -43,7 +43,7 @@ export default function Station() {
   return (
     <Page title="Smartiny | Dashboard">
       <Box sx={{ pb: 5 }}>
-        <Typography variant="h4">Estação 01</Typography>
+        <Typography variant="h4">Estação</Typography>
       </Box>
       <Grid container spacing={3}>
         <Grid item md={10} lg={6}>

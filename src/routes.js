@@ -23,10 +23,10 @@ export default function Router() {
       children: [
         { path: '/', element: <Navigate to="/dashboard/app" replace /> },
         { path: 'app', element: <DashboardApp /> },
-        { path: 'station01', element: <Station /> },
+        { path: 'station', element: <Station /> },
         { path: 'cameras', element: <Camera /> },
         { path: 'user', element: <User /> },
-        { path: 'products', element: <Products /> },
+        { path: 'agroweek', element: <Products /> },
         { path: 'blog', element: <Blog /> }
       ]
     },

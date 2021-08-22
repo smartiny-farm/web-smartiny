@@ -27,11 +27,11 @@ const sidebarConfig = [
   //   path: '/dashboard/user',
   //   icon: getIcon(peopleFill)
   // },
-  // {
-  //   title: 'product',
-  //   path: '/dashboard/products',
-  //   icon: getIcon(shoppingBagFill)
-  // },
+  {
+    title: 'agroweek',
+    path: '/dashboard/agroweek',
+    icon: getIcon(shoppingBagFill)
+  }
   // {
   //   title: 'blog',
   //   path: '/dashboard/blog',
@@ -47,11 +47,11 @@ const sidebarConfig = [
   //   path: '/register',
   //   icon: getIcon(personAddFill)
   // },
-  {
-    title: 'Not found',
-    path: '/404',
-    icon: getIcon(alertTriangleFill)
-  }
+  // {
+  //   title: 'Not found',
+  //   path: '/404',
+  //   icon: getIcon(alertTriangleFill)
+  // }
 ];
 
 export default sidebarConfig;
